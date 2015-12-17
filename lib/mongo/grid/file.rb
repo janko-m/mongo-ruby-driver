@@ -56,7 +56,7 @@ module Mongo
       # @example Create the file.
       #   Grid::File.new(data, :filename => 'test.txt')
       #
-      # @param [ IO, Array<BSON::Document> ] data The file or IO object or
+      # @param [ String, Array<BSON::Document> ] data The file contents or
       #   chunks.
       # @param [ BSON::Document, Hash ] options The info options.
       #
